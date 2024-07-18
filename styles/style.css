@@ -150,8 +150,10 @@ article {
   color: var(--blue-primary);
 }
 
+/* learn html */
+
 .learn_html {
-  margin-top: 30px;
+  margin: 30px 0;
 }
 .html_learn_title {
   color: var(--blue-primary);
@@ -207,4 +209,10 @@ aside {
 .aside_title {
   margin: 50px 0 30px 0;
   padding-left: 0;
+}
+
+/* footer */
+
+.footer_txt {
+  padding-bottom: 15px;
 }
