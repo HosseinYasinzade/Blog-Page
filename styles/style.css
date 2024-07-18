@@ -1,16 +1,22 @@
+/* basic confgue */
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+/* asign varieable */
 
 :root {
   --gray-bg: #e0e0e0;
   --blue-primary: #0288d1;
 }
+
+/* reset style */
 
 a {
   text-decoration: none;
@@ -20,11 +26,14 @@ ul {
   list-style-type: none;
 }
 
+/* container */
+
 .container {
   width: 70%;
-  background-color: aqua;
   margin: 0 auto;
 }
+
+/* header */
 
 .header {
   margin-top: -5px;
@@ -71,4 +80,47 @@ ul {
 
 .item:hover .menu_item {
   color: #fff;
+}
+
+/* main */
+
+.main {
+  margin-top: 50px;
+}
+
+/* article */
+
+article {
+  width: 70%;
+}
+
+.main_title {
+  font-size: 3rem;
+  color: var(--blue-primary);
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.author_img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.author_info {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.post_img {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.post_caption {
+  font-size: 20px;
 }
