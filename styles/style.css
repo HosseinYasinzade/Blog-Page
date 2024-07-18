@@ -44,6 +44,12 @@ h1 {
   margin: 0 auto;
 }
 
+.container_main {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* header */
 
 .menu {
@@ -92,12 +98,14 @@ article {
 .main_title {
   font-size: 3rem;
   display: inline;
+  position: relative;
 }
 
 .top_span {
   background-color: yellow;
   padding: 5px 5px;
   font-weight: bold;
+  position: absolute;
 }
 
 .author {
@@ -163,10 +171,9 @@ article {
 /* aside */
 
 aside {
-  width: 15%;
-  position: fixed;
-  right: 15%;
-  top: 15%;
+  width: 25%;
+  height: 32rem;
+  margin-left: 100px;
   background-color: var(--gray-bg);
   text-align: center;
   border-top: 5px solid var(--blue-primary);
