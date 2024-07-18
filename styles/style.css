@@ -121,6 +121,30 @@ article {
   margin-bottom: 30px;
 }
 
+.whats_html_title {
+  color: var(--blue-primary);
+}
+
 .post_caption {
   font-size: 20px;
+  line-height: 1.5;
+}
+
+/* whats html section */
+
+.whats_Html {
+  margin-top: 30px;
+}
+
+.whats_html_caption {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.whats_html_parts {
+  padding-left: 40px;
+}
+
+.whats_html_link {
+  color: var(--blue-primary);
 }
