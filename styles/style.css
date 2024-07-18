@@ -43,7 +43,11 @@ ul {
   justify-content: space-between;
   align-items: center;
   background-color: var(--gray-bg);
-  padding: 10px 30px;
+  padding: 0 30px;
+}
+
+.menu_title {
+  color: var(--blue-primary);
 }
 
 .menu_items {
@@ -52,6 +56,19 @@ ul {
 }
 
 .menu_item {
-  margin-left: 2rem;
+  margin: 0 1rem;
   color: var(--blue-primary);
+}
+
+.item {
+  transition: all 0.5s;
+  padding: 20px 0;
+}
+
+.item:hover {
+  background-color: var(--blue-primary);
+}
+
+.item:hover .menu_item {
+  color: #fff;
 }
