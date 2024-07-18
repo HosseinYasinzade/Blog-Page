@@ -148,3 +148,20 @@ article {
 .whats_html_link {
   color: var(--blue-primary);
 }
+
+.learn_html {
+  margin-top: 30px;
+}
+.html_learn_title {
+  color: var(--blue-primary);
+  margin-bottom: 30px;
+}
+
+.html_learn_caption {
+  font-size: 20px;
+}
+
+.html_learn_part {
+  list-style-type: disc;
+  margin-left: 50px;
+}
