@@ -12,8 +12,8 @@
 /* asign varieable */
 
 :root {
-  --gray-bg: #e0e0e0;
-  --blue-primary: #0288d1;
+  --gray-bg: #eeeeee;
+  --blue-primary: #0091ea;
 }
 
 /* reset style */
@@ -85,6 +85,7 @@ ul {
 /* main */
 
 .main {
+  display: flex;
   margin-top: 50px;
 }
 
@@ -164,4 +165,46 @@ article {
 .html_learn_part {
   list-style-type: disc;
   margin-left: 50px;
+}
+
+/* aside */
+
+aside {
+  width: 15%;
+  position: fixed;
+  right: 15%;
+  top: 15%;
+  background-color: var(--gray-bg);
+  text-align: center;
+  border-top: 5px solid var(--blue-primary);
+  border-bottom: 5px solid var(--blue-primary);
+  border-radius: 10px;
+}
+
+.aside_list_img {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+
+.aside_list_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+.aside_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aside_description {
+  margin-top: 10px;
+}
+
+.aside_title {
+  margin: 50px 0 30px 0;
+  padding-left: 0;
 }
